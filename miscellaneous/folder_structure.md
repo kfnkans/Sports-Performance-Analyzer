@@ -1,4 +1,3 @@
-Stocks-Performance-Analyzer/
 project_root/
 ├── data/
 │   ├── raw/
@@ -10,7 +9,12 @@ project_root/
 │   └── utils.py
 ├── tests/
 │   ├── test_data_loader.py
-│   └── test_analysis.py
+│   └── test_analysis.py 
+├── miscellaneous/  
+│   ├──folder_structure.md 
+│   └──project_phases.md 
+├── venv/
+│
 ├── .gitignore
 ├── README.md
 └── requirements.txt
