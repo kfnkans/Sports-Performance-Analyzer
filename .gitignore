@@ -1,0 +1,12 @@
+# Ignore project phases documentation 
+miscellaneous/project_phases.md 
+
+#Ignore Python compile files 
+__pycache__/ 
+*.pyc  
+
+#Ignore virtual environment 
+venv/  
+
+#Ignore environment variables 
+.env
