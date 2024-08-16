@@ -1,4 +1,4 @@
-project_root/
+Stocks-Performance-Analyzer/
 ├── data/
 │   ├── raw/
 │   │   └── stock_data.csv
@@ -11,10 +11,10 @@ project_root/
 │   ├── test_data_loader.py
 │   └── test_analysis.py 
 ├── miscellaneous/  
-│   ├──folder_structure.md 
-│   └──project_phases.md 
+│   ├── folder_structure.md 
+│   └── project_phases.md 
 ├── venv/
-│
+│   └── (contains virtual environment files)
 ├── .gitignore
 ├── README.md
 └── requirements.txt
