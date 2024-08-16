@@ -16,8 +16,9 @@ class TestAnalysis(unittest.TestCase):
             {'date': '2024-08-12', 'symbol': 'AAPL', 'volume': '50000000'},
             {'date': '2024-08-13', 'symbol': 'AAPL', 'volume': '55000000'},
         ]
-        highest_vol = highest_volume_day(data, 'AAPL')
-        self.assertEqual(highest_vol['volume'], '55000000') 
+        highest_vol_day = highest_volume_day(data, 'AAPL') 
+        self.assertEqual(highest_vol_day['date'], '2024-08-13')
+        # self.assertEqual(highest_vol['volume'], '55000000') 
 
 
 

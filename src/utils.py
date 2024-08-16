@@ -5,7 +5,13 @@ def format_date(date_str: str) -> datetime: #convert a string date to datetime o
         Args:  
             date_str(str): Date as a string. 
         Returns: 
-            datetime: Date as a datetime object.
-       
+            datetime: Date as a datetime object.       
      """ 
-    return datetime.strptime(date_str, '%Y-%m-%d')
+    return datetime.strptime(date_str, '%Y-%m-%d')  
+def handle_missing_data(data): 
+    """ Handle missing data by removing rows with missing values. 
+        Args: data(list[dict]): The stock data. 
+        Returns: 
+            list[dict]: The cleaned data.
+     """ 
+    return [row for row in data if all(row.values())]
