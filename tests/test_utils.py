@@ -3,7 +3,7 @@ from src.utils import format_date, handle_missing_data
 
 class TestUtils(unittest.TestCase): 
 
-    def test_format_date(self); 
+    def test_format_date(self):
         date_str = '2024-08-12' 
         date_obj = format_date(date_str) 
         self.assertEqual(date_obj.year, 2024) 

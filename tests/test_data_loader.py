@@ -8,7 +8,7 @@ class TestDataLoader(unittest.TestCase):
     
     def test_load_data_missing_file(self): 
         with self.assertRaises(FileNotFoundError):
-            load_data('data/raw/non_exisistent.csv') 
+            load_data('data/raw/non_existent.csv') 
 
 
 if __name__ == '__main__': 

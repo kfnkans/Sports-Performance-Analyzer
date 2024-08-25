@@ -8,7 +8,12 @@ def format_date(date_str: str) -> datetime: #convert a string date to datetime o
             datetime: Date as a datetime object.       
      """ 
     return datetime.strptime(date_str, '%Y-%m-%d')  
-def handle_missing_data(data): 
+def handle_missing_data(data):  
+    cleaned_data = [] 
+    for row in data: 
+        if all(row.values()): 
+            cleaned_data.append(row) 
+    return cleaned_data
     """ Handle missing data by removing rows with missing values. 
         Args: data(list[dict]): The stock data. 
         Returns: 

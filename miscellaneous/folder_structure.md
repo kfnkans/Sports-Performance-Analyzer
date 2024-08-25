@@ -1,3 +1,5 @@
+### Updated Folder Structure
+
 Stocks-Performance-Analyzer/
 ├── data/
 │   ├── raw/
@@ -9,12 +11,12 @@ Stocks-Performance-Analyzer/
 │   └── utils.py
 ├── tests/
 │   ├── test_data_loader.py
-│   └── test_analysis.py 
+│   ├── test_analysis.py 
+│   └── test_utils.py
 ├── miscellaneous/  
 │   ├── folder_structure.md 
 │   └── project_phases.md 
-├── venv/
-│   └── (contains virtual environment files)
+├── venv/ (it's not empty)
 ├── .gitignore
 ├── README.md
 └── requirements.txt
